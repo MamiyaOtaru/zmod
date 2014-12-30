@@ -1,0 +1,11 @@
+{
+    "name": "ZombesMod",
+    "mcversion": "1.8",
+    "version": "1.0.0",
+    "revision": "1000",
+    "author": "MamiyaOtaru",
+    "description": "A few of the features of the old Zombes Mod\nSafe, Ore, Monster, See Through\nConfigure keybinds in the Minecraft controls menu",
+    "classTransformerClasses" : [
+        "com.mamiyaotaru.zmod.litemod.ZModTransformer"
+    ]
+}
