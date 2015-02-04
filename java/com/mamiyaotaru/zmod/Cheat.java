@@ -435,6 +435,7 @@ public class Cheat implements IMod {
 
     @Override
 	public void saveSettings(PrintWriter out) {
+    	needsSave = false;
 		out.println("Ore Key:" + Common.getKeyDisplayString(keyBindOreToggle.getKeyCode()));
 		out.println("Monster Highlight Key:" + Common.getKeyDisplayString(keyBindMonsterToggle.getKeyCode()));
 		out.println("See Through Key:" + Common.getKeyDisplayString(keyBindSeeThrough.getKeyCode()));

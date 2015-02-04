@@ -219,6 +219,7 @@ public class Safe implements IMod {
 
     @Override
 	public void saveSettings(PrintWriter out) {
+    	needsSave = false;
 		out.println("Safe Key:" + Common.getKeyDisplayString(keyBindToggle.getKeyCode()));
 		out.println("Safe Ghost Mode Key:" + Common.getKeyDisplayString(keyBindGhostModeToggle.getKeyCode()));
 	}
